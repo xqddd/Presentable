@@ -1,0 +1,23 @@
+{
+    "name": "xqddd/presentable",
+    "description": "PHP Presentable interface for outputting different sets and types of data",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrei Pirjoleanu",
+            "email": "andreipirjoleanu@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xqddd\\Presentable\\": "src/"
+        }
+    }
+}
